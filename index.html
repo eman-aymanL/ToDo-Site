@@ -1,0 +1,37 @@
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Todo</title>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpdSoY4Gk0UUNAIzJvF2t/l0QpbY/TN15nrVBxTEe+12uJWKBRKmhq4aGp2H6139fSJofH7LgKCQ/mHEQwpms5szY10/FXlRnqQ7UIXbfkQmJ/4TIyJicw/3kgpkSX+0iW5S/WhiteOutJazz.png" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Sans+Caption:wght@400;700&family=Pacifico&family=Righteous&display=swap" rel="stylesheet">
+    
+</head>
+    <body>
+        <div class="container text-center my-5 p-4">
+            <h1 class="mb-5">Todo List</h1>
+            <div class="form-floating mb-3">
+                <input type="search" class="form-control" id="todoInput" placeholder="todoInput">
+                <label for="todoInput">add task...</label>
+              </div>
+              <button id="addTaskBtn" class="btnn p-2 mt-2">Add Task</button>
+
+              <div class="d-none" id="loader">
+                <i class="fa-solid fa-spinner fa-spin"></i>
+              </div>
+
+            <div id="rowData">
+                
+                </div>
+        </div>
+       
+
+        
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>

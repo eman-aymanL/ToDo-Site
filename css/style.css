@@ -1,0 +1,42 @@
+body{
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    background-image: url(../images/pink-star-abstract-background-with-gold-elements.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    max-width: 90%;
+    width: 100%;
+    background-color: #E2B5B6;
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h1{
+    font-weight: 500;
+    position: relative;
+    font-family: "Pacifico", serif;
+}
+i{
+    cursor: pointer;
+}
+h1::after{
+    content:'';
+    position: absolute;
+    width: 300px;
+    background-color:#B9916A;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%,-50%);
+    height: 3px;
+    
+}
+#loader{
+    color: #B9916A;
+}
+#addedTodo{
+    border-bottom: 2px #B9916A solid;
+}
+.btnn{
+    background-color: #B9916A;
+}
